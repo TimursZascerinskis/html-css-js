@@ -1,1 +1,1 @@
-console.log("App.js ir veiksmīgi ielādēts!");
+console.log("Timurs");

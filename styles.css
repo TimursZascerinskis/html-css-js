@@ -2,39 +2,5 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #a3a3c2;
 }
-
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-}
-
-section {
-  padding: 20px;
-  margin: 20px 0;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  background-color: #fff;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
