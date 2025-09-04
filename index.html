@@ -11,16 +11,18 @@
 <body>
     <div class="the-heading">
         <header>
-            <h1>Timurs Zascerinskis</h1>
+            <h1 onclick="MyName()">Timurs Zascerinskis</h1>
             <p>Web try 1</p>
         </header>
     </div>
 
 
-    <section id="about">
+    <section>
         <h2>Par mani</h2>
-        <p>Es </p>
-        <img src="portfoliaImage.png" alt="Just a portfolia image" style="width:300px;height:200px;">
+        <p id="first-paragraph">es</p>
+        <button onclick="querySelectors()">find</button>
+        <button onclick="deleteFirstParagraph()">Remove</button>
+    
     </section>
 
     <section id="projects">
@@ -38,6 +40,7 @@
     </section>
 
     <section id="contact">
+        <img src="portfoliaImage.png" alt="Just a portfolia image" style="width:300px;height:200px;">
         <h2>Kontakti</h2>
         <p>Lūdzu, sazinieties ar mani pa e-pastu: <a href="mailto:timurs@gmail.com">timurs@gmail.com</a></p>
     </section>
@@ -49,6 +52,7 @@
 
     <!-- Poga, kuru nospiežot, izvadīs skaitļus -->
     <button id="showNumbers">Izvadīt skaitļus no 1 līdz 10</button>
+
 
     <script src="app.js"></script>
 </body>
