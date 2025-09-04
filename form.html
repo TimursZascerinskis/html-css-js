@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="lv">
+
 <head>
     <title>form.title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Timurs Zascerinskis</h1>
@@ -12,14 +15,28 @@
     <form>
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname"><br>
+
+        <label for="dzimums">dzimums:</label><br>
+        <input type="radio" id="man" name="dzimums" value="man">
+        <label for="man">Man</label> <br>
+        <input type="radio" id="women" name="dzimums" value="women">
+        <label for="women">Women</label> <br>
+
         <label for="email">email:</label><br>
         <input type="text" id="email" name="email"><br>
+
         <label for="limenis">līmenis:</label><br>
         <input type="text" id="limenis" name="limenis"><br>
+
         <label for="atsauksme">atsauksme:</label><br>
         <input type="text" id="atsauksme" name="atsauksme"><br>
 
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="yes">
+        <label for="vehicle1">Vai vēlies saņemt info e-pastu?</label><br>
+
+
+        <button class="submit">Submit</button>
     </form>
 
-    <button class="submit">Submit</button>
 </body>
