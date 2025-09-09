@@ -1,35 +1,36 @@
-// // Funkcija, kas izvada skaitļus no 1 līdz 10
-// function izvaditSkaitlus() {
-//     for (let i = 1; i <= 10; i++) {
-//         console.log(i);
-//     }
-// }
+// Funkcija, kas izvada skaitļus no 1 līdz 10
+function izvaditSkaitlus() {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+}
 
-// // Saistām funkciju ar pogu
-// // document.getElementById("showNumbers").onclick = izvaditSkaitlus;
+// Saistām funkciju ar pogu
+document.getElementById("showNumbers").onclick = izvaditSkaitlus;
 
 
-// function MyName(){
-//     console.log("Timur")
-// }
+function MyName(){
+    console.log("Timur")
+}
 
-// function deleteFirstParagraph() {
-//   const element = document.getElementById("first-paragraph");
-//   element.remove();
-//   console.log("delete")
-// }
-// function querySelectors(){
-//     document.querySelector("#first-paragraph").style.backgroundColor = "red";
-// }
+function deleteFirstParagraph() {
+  const element = document.getElementById("first-paragraph");
+  element.remove();
+  console.log("delete")
+}
+function querySelectors(){
+    document.querySelector("#first-paragraph").style.backgroundColor = "red";
+    console.log("finded")
+}
 
-// document.getElementById("myAnchor").addEventListener("click", function(event){
-//   event.preventDefault()
-// });
+document.getElementById("first-paragraph").addEventListener("click", function(event){
+  event.preventDefault()
+});
 
 //------------------------------------------------
-const form = document.getElementById("myInfo");
+const forma = document.getElementById("myInfo");
 
-form.addEventListener("submit", function(event) {
+forma.addEventListener("submit", function(event) {
     // Novēršam noklusēto formas uzvedību
     event.preventDefault();
 
